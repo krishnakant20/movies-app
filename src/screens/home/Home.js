@@ -92,12 +92,12 @@ export default function Home() {
                         <Header />
                     </div>
                     <div id='header2'>Upcoming Movies</div>
-                    <div>
+                    {/* <div>
                         <button type="button" class="btn btn-success">bootstrap js </button>
                         <Button variant="contained">material ui</Button>
                         <Badge badgeContent={4} color="primary">mui5
                         </Badge>
-                    </div>
+                    </div> */}
                 </div>
                 <ImageList sx={{ width: 2000, height: 250 }} cols={12} rowHeight={250}>
                     {moviesData.map((item) => (
