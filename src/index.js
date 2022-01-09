@@ -7,6 +7,7 @@ import reportWebVitals from './reportWebVitals';
 import Home from './screens/home/Home';
 import registerServiceWorker from './registerServiceWorker';
 import BookShow from './screens/bookshow/BookShow'
+import Confirmation from './screens/confirmation/Confirmation'
 
 
 import {
@@ -32,9 +33,12 @@ ReactDOM.render(
           <li>
             <Link to="/details">Details</Link>
           </li>
-          <li>
+          {/* <li>
             <Link to="/bookshow">BookShow</Link>
           </li>
+          <li>
+            <Link to="/confirmation">Confirmation</Link>
+          </li> */}
         </ul>
 
         {/* <hr /> */}
@@ -53,9 +57,12 @@ ReactDOM.render(
           <Route path="/details">
             <Details />
           </Route>
-          <Route path="/bookshow">
+          {/* <Route path="/bookshow">
           <BookShow />
           </Route>
+          <Route path="/confirmation">
+          <Confirmation />
+          </Route> */}
         </Switch>
       </div>
     </Router>

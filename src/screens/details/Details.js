@@ -8,6 +8,7 @@ import { Badge, ImageList, ImageListItem, ImageListItemBar, Card, FormControl, I
 import moviesData from '../home/moviesData'
 import StarBorderIcon from '@mui/icons-material/StarBorder';
 import { Icon } from '@mui/material';
+import ReactPlayer from 'react-player'
 
 //created Details component as functional component in checkpoint 5
 
@@ -69,10 +70,10 @@ export default function Details() {
                                     <b>Trailer:</b>
 
                                 </div>
-                                <iframe width="650" height="320"
+                                {/* <iframe width="650" height="320"
                                     src={item.trailer_url}>
-                                </iframe>
-
+                                </iframe> */}
+                                <ReactPlayer url={item.trailer_url} />
                             </div>
                         </div>
                         <div id='right'>
@@ -100,7 +101,22 @@ export default function Details() {
                                 Artists:
                             </div>
                             <div>
-                                {item.artists.first_name}
+                                {item.artists.map((item2) => {
+                                    return <div key={item2.id}>
+
+                                        <ImageListItem key={item2.id} >
+                                            <img
+                                                src={item2.profile_url}
+                                                alt={item.title}
+                                                loading="lazy"
+                                            />
+                                            <ImageListItemBar
+                                                title={item2.first_name}
+                                            // subtitle={item.author}
+                                            />
+                                        </ImageListItem>
+                                    </div>
+                                })}
                             </div>
                         </div>
 

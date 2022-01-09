@@ -9,7 +9,7 @@ let moviesData = [
         ],
         duration: 177,
         poster_url: "https://upload.wikimedia.org/wikipedia/en/1/1c/Godfather_ver1.jpg",
-        trailer_url: "https://www.youtube.com/watch/?v=sY1S34973zA",
+        trailer_url: "https://youtu.be/sY1S34973zA",
         wiki_url: "https://en.wikipedia.org/wiki/The_Godfather",
         release_date: "1972-03-15T00:00:00+05:30",
         censor_board_rating: "R",
@@ -22,7 +22,7 @@ let moviesData = [
                 "last_name": "Brando",
                 "role_type": "ACTOR",
                 "profile_description": "Marlon Brando Jr. was an American actor and film director. He is credited with bringing realism to film acting and helping to popularize the Stanislavski system of acting having studied with Stella Adler in the 1940s. Regarded for his cultural influence on 20th century film, Brando's Academy Award-winning performances include that of Terry Malloy in On the Waterfront (1954) and Don Vito Corleone in The Godfather (1972). Brando was an activist for many causes, notably the civil rights movement and various Native American movements.",
-                "profile_url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Marlon_Brando_%28cropped%29.jpg",
+                "profile_url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Marlon_Brando_publicity_for_One-Eyed_Jacks.png",
                 "wiki_url": "https://en.wikipedia.org/wiki/Marlon_Brando"
             },
             {
@@ -46,7 +46,7 @@ let moviesData = [
             "Drama"
         ],
         duration: 152,
-        poster_url: "https://upload.wikimedia.org/wikipedia/en/8/8a/Dark_Knight.jpg",
+        poster_url: "https://upload.wikimedia.org/wikipedia/en/8/83/Dark_knight_rises_poster.jpg",
         trailer_url: "https://www.youtube.com/watch?v=_PZpmTj1Q8Q",
         wiki_url: "https://en.wikipedia.org/wiki/The_Dark_Knight_(film)",
         release_date: "2008-07-18T00:00:00+05:30",
