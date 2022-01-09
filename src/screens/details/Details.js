@@ -9,6 +9,8 @@ import moviesData from '../home/moviesData'
 import StarBorderIcon from '@mui/icons-material/StarBorder';
 import { Icon } from '@mui/material';
 
+//created Details component as functional component in checkpoint 5
+
 export default function Details() {
     const [articles, setArticles] = useState([]);
 

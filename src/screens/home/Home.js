@@ -64,7 +64,7 @@ const namesArtists = [
 ];
 // Artist listdown menu with checkboxes end
 
-
+// Home component made fuctional component in checkpoint 4
 export default function Home() {
     const [personName, setPersonName] = React.useState([]);
     //date picker start
@@ -248,6 +248,7 @@ export default function Home() {
     )
 }
 
+// Home component made fuctional component in checkpoint 4
 
 // export class Home extends Component {
 
