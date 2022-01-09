@@ -6,6 +6,7 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Home from './screens/home/Home';
 import registerServiceWorker from './registerServiceWorker';
+import BookShow from './screens/bookshow/BookShow'
 
 
 import {
@@ -31,6 +32,9 @@ ReactDOM.render(
           <li>
             <Link to="/details">Details</Link>
           </li>
+          <li>
+            <Link to="/bookshow">BookShow</Link>
+          </li>
         </ul>
 
         {/* <hr /> */}
@@ -49,7 +53,9 @@ ReactDOM.render(
           <Route path="/details">
             <Details />
           </Route>
-          
+          <Route path="/bookshow">
+          <BookShow />
+          </Route>
         </Switch>
       </div>
     </Router>
